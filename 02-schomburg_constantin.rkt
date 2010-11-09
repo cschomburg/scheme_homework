@@ -19,8 +19,7 @@
 
 ;; Enthält der erste Kreis den zweiten Kreis?
 (define (contains? x1 y1 r1 x2 y2 r2)
-  (and (>= r1 r2)
-       (<= (distance x1 y1 x2 y2) (- r1 r2))))
+  (<= (distance x1 y1 x2 y2) (- r1 r2)))
 
 ;; Liegt der Punkt innerhalb des Kreises?
 (define (is-in? x y x1 y1 r1)
@@ -31,15 +30,18 @@
 ;;#################
 ;;### Aufgabe 2 ###
 ;;#################
+;; Rekursive vs. iterative Prozesse
+;; Bei einem rekursiven Prozess muss die Prozedur auf aufgerufene "Sub-Prozeduren" warten, um weiterzurechnen.
+;; Dagegen verlaufen bei einem iterativen Prozess die Prozeduren nacheinander ab: die erste muss nicht warten,
+;; die letzte gibt das vollständige Ergebnis zurück.
+;;   Ein rekursiver Prozess benötigt mehr Speicher, ist aber schneller.
 
 ;; Rekursiver Prozess
-;;   Kontra: Prozeduren müssen auf "Sub-Prozeduren" warten, um weiterzurechnen
 (define (sum-rec n)
   (cond ((<= n 0) 0)
         (else (+ n (sum-rec (- n 1))))))
 
 ;; Iterativer Prozess
-;; Pro: Prozeduren müssen nicht warten, die letzte gibt das Ergebnis zurück
 (define (sum-iter n curr-sum)
   (cond ((<= n 0) curr-sum)
         (else (sum-iter (- n 1) (+ curr-sum n)))))
@@ -88,7 +90,7 @@
 ;; Dienen nur zur Überprüfung
 
 ;; Definitionen
-(define curr-test-name "Unspezifiziert")
+(define curr-test-name "")
 (define curr-test-i 0)
 
 (define (start-test name)
