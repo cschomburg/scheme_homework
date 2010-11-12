@@ -100,9 +100,9 @@
 
 (define (test desc value expected)
   (set! curr-test-i (+ curr-test-i 1))
-  (cond ((eqv? value expected) (display "      "))
-        (else (display " FAIL ")))
-  (display "#") (display curr-test-i) (display ": ") (display desc) (display " [") (display expected) (display "|") (display value) (display "]") (newline))
+  (define result "      ")
+  (cond ((not (eqv? value expected)) (set! result " FAIL ")))
+  (printf "~a#~s: ~a [~s|~s]~%" result curr-test-i desc expected value))
 
 ;; Tests
 (start-test "Die Tests selbst!")
