@@ -86,25 +86,9 @@
 ;;##################
 ;;### Testreihen ###
 ;;##################
-;; Nicht Teil der Lösung (benutzen eqv? und set!)
-;; Dienen nur zur Überprüfung
 
-;; Definitionen
-(define curr-test-name "")
-(define curr-test-i 0)
+(require "tests.rkt")
 
-(define (start-test name)
-  (set! curr-test-name name)
-  (set! curr-test-i 0)
-  (newline) (display "Testreihe: ") (display name) (newline))
-
-(define (test desc value expected)
-  (set! curr-test-i (+ curr-test-i 1))
-  (define result "      ")
-  (cond ((not (eqv? value expected)) (set! result " FAIL ")))
-  (printf "~a#~s: ~a [~s|~s]~%" result curr-test-i desc expected value))
-
-;; Tests
 (start-test "Die Tests selbst!")
 (test "erfüllt" #t #t)
 (test "nicht erfüllt" #f #t)

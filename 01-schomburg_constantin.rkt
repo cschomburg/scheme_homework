@@ -1,6 +1,6 @@
 #lang scheme
 
-;; Programmieren (Scheme) - Übung 01
+;; Programmieren (Scheme) - WS 2010/11 - Übung 01
 ;; 22.10.10 - 05.11.10
 ;; Constantin Schomburg
 
@@ -48,25 +48,9 @@
 ;;##################
 ;;### Testreihen ###
 ;;##################
-;; Nicht Teil der Lösung
-;; Dienen nur zur Überprüfung
 
-;; Definitionen
-(define curr-test-name "Unspezifiziert")
-(define curr-test-i 0)
+(require "tests.rkt")
 
-(define (start-test name)
-  (set! curr-test-name name)
-  (set! curr-test-i 0)
-  (newline) (display "Testreihe: ") (display name) (newline))
-
-(define (test desc value expected)
-  (set! curr-test-i (+ curr-test-i 1))
-  (define result "      ")
-  (cond ((not (eqv? value expected)) (set! result " FAIL ")))
-  (printf "~a#~s: ~a [~s|~s]~%" result curr-test-i desc expected value))
-
-;; Tests
 (start-test "Maximum")
 (test "1 und 5"  (max 1 5)  5)
 (test "7 und -2" (max 7 -2) 7)
