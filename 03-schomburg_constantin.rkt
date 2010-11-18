@@ -4,6 +4,19 @@
 ;; 12.11.10 - 19.11.10
 ;; Constantin Schomburg
 
+
+
+;; Hilfsfunktionen aus der Vorlesung
+(define (cputime f . args)
+  (define-values (result cpu real gc) (time-apply f args))
+  (* 1.0 cpu))
+
+(define (factor o n f . args)
+  (define-values (result cpu real gc) (time-apply f args))
+  (* 1.0 (/ cpu (o n))))
+
+
+
 ;;#################
 ;;### Aufgabe 1 ###
 ;;#################
@@ -18,6 +31,8 @@
   (iter (- n 1) 0))
 
 (aufgabe1 1000) ;; 233168
+
+
 
 ;;#################
 ;;### Aufgabe 2 ###
@@ -75,29 +90,21 @@
   (if (< n 3) 1
       (iter 3 1 1 1)))
 
-(f-iter 100) ;; 1159988228848170573365003508337887644164465
+;(f-iter 100) ;; 1159988228848170573365003508337887644164465
 
 ;; Der rekursive Prozess hat eine exponentielle Laufzeit von O(1.84^n), da
 ;; er beim Berechnen immer auf die Werte von rekursiven Prozeduren zurückgreifen muss.
-;; Im Gegensatz dazu hat der iterative Prozess eine lineare Laufzeit von O(n), da
-;; er lediglich sich selbst mit bereits berechneten Ergebnissen aufrufen muss.
+;; Im Gegensatz läuft der iterative Prozess schneller, da er auf vorher berechnete
+;; Eregebnisse zurückgreift. Ich schätze, er läuft mit O(n), die realen Werte deuten
+;; aber eher auf O(n^2) hin - vielleicht wegen der großen Zahlen?
 
 ;; Proportionalitätsfaktoren an meinem Desktop-Computer:
 ;; rekursiv: ~ 9e-05 +- 3e-05
 ;; iterativ: ~ 0.04  +- 0.03
 
-;; Hilfsfunktionen aus der Vorlesung
-(define (cputime f . args)
-  (define-values (result cpu real gc) (time-apply f args))
-  (* 1.0 cpu))
-
-(define (factor o n f . args)
-  (define-values (result cpu real gc) (time-apply f args))
-  (* 1.0 (/ cpu (o n))))
-
 ;; O-Funktionen
-(define (f-rec-o n) (* 9e-05 (expt 1.84 n)))
-(define (f-iter-o n) n)
+(define (f-rec-o n) (expt 1.84 n))
+(define (f-iter-o n) (expt n 2))
 
 ;(factor f-iter-o 10000 f-iter 10000)
 ;(factor f-iter-o 20000 f-iter 20000)
