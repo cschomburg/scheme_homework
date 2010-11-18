@@ -8,6 +8,7 @@
 ;;### Aufgabe 1 ###
 ;;#################
 
+;; Alle Zahlen bis n aufsummieren, die durch 3 oder teilbar sind
 (define (aufgabe1 n)
   (define (iter n sum)
     (cond ((<= n 0) sum)
@@ -17,7 +18,7 @@
           (else (iter (- n 1) sum))))
   (iter (- n 1) 0))
 
-(aufgabe1 1000) ;; 233168
+;(aufgabe1 1000) ;; 233168
 
 ;;#################
 ;;### Aufgabe 2 ###
@@ -32,7 +33,7 @@
               (+ counter 1))))
   (iter 1 1))
 
-;; Compute-e mit Verwendung von factorial
+;; Compute-e mit Verwendung von factorial (rekursiv)
 (define (compute-e1 n)
   (define (iter m sum)
     (if (> m n) sum
@@ -40,7 +41,7 @@
               (+ sum (/ 1 (factorial m))))))
   (iter 0 0.))
 
-;; Compute-e ohne Verwendung von factorial
+;; Compute-e ohne Verwendung von factorial (iterativ)
 (define (compute-e2 n)
   (define (iter m value term)
     (if (> m n) (+ value term)
@@ -75,10 +76,10 @@
   (if (< n 3) 1
       (iter 3 1 1 1)))
 
-(f-iter 100) ;; 1159988228848170573365003508337887644164465
+;(f-iter 100) ;; 1159988228848170573365003508337887644164465
 
 ;; Der rekursive Prozess hat eine exponentielle Laufzeit von O(1.84^n), da
-;; er beim Berechnen immer auf die Werte von rekursiven Prozeduren zurückgreifen muss.
+;; er beim Berechnen immer auf die Werte von rekursiven Prozeduren zurückgreifen muss (und oftmals doppelt bis dreifach berechnet).
 ;; Im Gegensatz dazu hat der iterative Prozess eine lineare Laufzeit von O(n), da
 ;; er lediglich sich selbst mit bereits berechneten Ergebnissen aufrufen muss.
 
@@ -96,7 +97,7 @@
   (* 1.0 (/ cpu (o n))))
 
 ;; O-Funktionen
-(define (f-rec-o n) (* 9e-05 (expt 1.84 n)))
+(define (f-rec-o n) (expt 1.84 n))
 (define (f-iter-o n) n)
 
 ;(factor f-iter-o 10000 f-iter 10000)
@@ -109,6 +110,21 @@
 ;;#################
 ;;### Aufgabe 4 ###
 ;;#################
+
+;; Schnelle Potentierung (iterativ)
+(define (fast-exp-i b n)
+  (define (fast-exp-iter a b n)
+    (cond ((= n 0) a)
+          ((odd? n) (fast-exp-iter (* a b) b (- n 1)))
+          (else (fast-exp-iter a (* b b) (/ n 2)))))
+  (fast-exp-iter 1 b n))
+
+(cputime fast-exp-i 2 1e9)
+
+;; O-Funktion
+(define (fast-exp-i-o n) (expt 3 (log n)))
+
+;(/ (fast-exp-i-o 5e15) 1e3 60 60 24 365 1e6) ;; 5.6 Millionen Jahre
 
 
 
@@ -132,3 +148,8 @@
 (start-test "Aufgabe 3")
 (test "rekursiv" (f-rec  10) 4504)
 (test "iterativ" (f-iter 10) 4504)
+
+(start-test "fast-exp-i")
+(test "1^0" (fast-exp-i 1 0) 1)
+(test "3^2" (fast-exp-i 3 2) 9)
+(test "2^10" (fast-exp-i 2 10) 1024)
