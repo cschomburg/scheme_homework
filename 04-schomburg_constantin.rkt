@@ -143,19 +143,19 @@
 ;;##################
 
 (require "tests.rkt")
-
-(start-test "Aufgabe 1")
-(test "Umfang lambda: " (circle-circumference-lambda 2) 6.28318)
-(test "Zylinderfläche lambda/let" (cylinder-area-lambda 2 3) (cylinder-area 2 3))
-;(start-test "Osterdatum")
-;(test "2010" (osterdatum 2010) "4. April")
-;(test "2011" (osterdatum 2011) "24. April")
-(start-test "Aufgabe 3")
-(test "Komposition" (compose (lambda (x) (expt x 2)) (lambda (x) (- (* 2 x) 3)) 6) 81)
-(test "h^k: f(2)" (f 2) 65536)
-(start-test "Iteration")
-(test "Phi(0)"  (phi  0) 1.0)
-(test "Phi(1)"  (phi  1) 2.0)
-(test "Phi(2)"  (phi  2) 1.5)
-(test "Phi(10)" (phi 10) 1.6179775280898876)
-(test "h^k-iterate" ((h^k-iterate square 4) 2) 65536)
+(test #f (lambda (>> t)
+           
+           (>> "Aufgabe 1")
+           (t "Umfang lambda" (circle-circumference-lambda 2) 6.28318)
+           (t "Zyl.-Fläche lambda/let" (cylinder-area-lambda 2 3) (cylinder-area 2 3))
+         
+           (>> "Aufgabe 3")
+           (t "Komposition" (compose (lambda (x) (expt x 2)) (lambda (x) (- (* 2 x) 3)) 6) 81)
+           (t "h^k: f(2)" (f 2) 65536)
+         
+           (>> "Aufgabe 4")
+           (t "Phi(0)"  (phi  0) 1.0)
+           (t "Phi(1)"  (phi  1) 2.0)
+           (t "Phi(2)"  (phi  2) 1.5)
+           (t "Phi(10)" (phi 10) 1.6179775280898876)
+           (t "h^k-iterate" ((h^k-iterate square 4) 2) 65536)))

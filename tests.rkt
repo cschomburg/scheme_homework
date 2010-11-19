@@ -1,17 +1,23 @@
 #lang scheme
 
-(provide start-test test)
+(provide test)
 
-(define curr-test-name "")
-(define curr-test-i 0)
+(define (fix-length str limit)
+  (let ((l (string-length str)))
+    (cond ((> l limit) str)
+          ((= l limit) str)
+          (else (fix-length (string-append str " ") limit)))))
 
-(define (start-test name)
-  (set! curr-test-name name)
-  (set! curr-test-i 0)
-  (newline) (display "Testreihe: ") (display name) (newline))
-
-(define (test desc value expected)
-  (set! curr-test-i (+ curr-test-i 1))
-  (define result "      ")
-  (cond ((not (eqv? value expected)) (set! result " FAIL ")))
-  (printf "~a#~s: ~a [~s|~s]~%" result curr-test-i desc expected value))
+(define (test verbose test-func)
+  (let ((row-name "Undefined"))
+    (test-func (lambda (name)
+                 (set! row-name name)
+                 (cond (verbose (printf "~%Test row: ~a~%" name))))
+               (lambda (desc value expected)
+                 (let* ((result (eqv? value expected)))
+                   (cond ((or verbose (not result))
+                          (printf " ~a ~a [~s|~s]~%"
+                                  (if result "    " "FAIL")
+                                  (fix-length desc 25)
+                                  expected
+                                  value))))))))
