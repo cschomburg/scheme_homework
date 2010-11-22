@@ -76,12 +76,13 @@
 ;;#################
 
 ;; Komposition zweier Funktionen
-(define (compose f1 f2 x)
-  (f1 (f2 x)))
+(define (compose f1 f2)
+  (lambda (x)
+    (f1 (f2 x))))
 
-;(compose (lambda (x) (expt x 2))
-;         (lambda (x) (- (* 2 x) 3))
-;         6) ;; 81
+;((compose (lambda (x) (expt x 2))
+;         (lambda (x) (- (* 2 x) 3)))
+; 6) ;; 81
 
 
 ;;### Aufgabenteil 3b) ###
@@ -150,7 +151,7 @@
            (t "Zyl.-Fläche lambda/let" (cylinder-area-lambda 2 3) (cylinder-area 2 3))
          
            (>> "Aufgabe 3")
-           (t "Komposition" (compose (lambda (x) (expt x 2)) (lambda (x) (- (* 2 x) 3)) 6) 81)
+           (t "Komposition" ((compose (lambda (x) (expt x 2)) (lambda (x) (- (* 2 x) 3))) 6) 81)
            (t "h^k: f(2)" (f 2) 65536)
          
            (>> "Aufgabe 4")
