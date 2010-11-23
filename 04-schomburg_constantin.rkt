@@ -75,7 +75,7 @@
 ;;### Aufgabe 3 ###
 ;;#################
 
-;; Komposition zweier Funktionen
+;; Komposition von zwei Funktionen
 (define (compose f1 f2)
   (lambda (x)
     (f1 (f2 x))))
