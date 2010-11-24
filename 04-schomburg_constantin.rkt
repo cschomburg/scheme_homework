@@ -4,9 +4,22 @@
 ;; 19.11.10 - 26.11.10
 ;; Constantin Schomburg
 
+;; Ausgaben-Formatierung
+(define (aufgabe n)
+  (printf "~%Aufgabe ~a~%=========~%" n))
+(define (output-expect name value expected)
+  (printf "  (~a) => ~a [~a]~%" name value (if (eqv? value expected) "PASS" "FAIL")))
+(define (output name value)
+  (printf "  (~a) => ~a~%" name value))
+(define (output-title name)
+  (printf "  (~a) => " name))
+
+
+
 ;;#################
 ;;### Aufgabe 1 ###
 ;;#################
+(aufgabe 1)
 
 ;;### Aufgabenteil 1a) ###
 ;; Let öffnet einen neuen Block, in dem pi als lokale Variable neu definiert wird.
@@ -24,7 +37,9 @@
       (let ((b (* 2 k)))
         (+ b s)))))
 
-;(cylinder-area 2 3) ;; 25.13272
+
+(output "cylinder-area 2 3" (cylinder-area 2 3)) ;; 25.13272
+
 
 
 ;;### Aufgabenteil 1c) ###
@@ -49,6 +64,7 @@
 ;;#################
 ;;### Aufgabe 2 ###
 ;;#################
+(aufgabe 2)
 
 ;; Osterdatum eines Jahres
 (define (osterdatum j)
@@ -70,37 +86,47 @@
 ;; let-Ausdrücke: 6
 
 
+(output-title "osterdatum 2010") (osterdatum 2010)
+(output-title "osterdatum 2011") (osterdatum 2011)
+
+
 
 ;;#################
 ;;### Aufgabe 3 ###
 ;;#################
+(aufgabe 3)
 
 ;; Komposition von zwei Funktionen
 (define (compose f1 f2)
   (lambda (x)
     (f1 (f2 x))))
 
-;((compose (lambda (x) (expt x 2))
-;         (lambda (x) (- (* 2 x) 3)))
-; 6) ;; 81
+
+(output-expect "compose f g) 6"
+        ((compose (lambda (x) (expt x 2))
+                  (lambda (x) (- (* 2 x) 3)))
+         6)
+        81)
 
 
 ;;### Aufgabenteil 3b) ###
 
 (define (h^k h k)
-  (cond ((= k 1) (lambda (x) (h x)))
+  (cond ((= k 1) h)
         ((> k 1) (lambda (x) (h ((h^k h (- k 1)) x))))))
 
 (define (square x) (* x x))
 (define f (h^k square 4))
 
-;(f 2) ;; 65536
+
+(output-expect "(f 2" (f 2) 65536)
 
 
 
 ;;#################
 ;;### Aufgabe 4 ###
 ;;#################
+(aufgabe 4)
 
 ;; Eine Iterationsfunktion, die bei start-value und start-index beginnt und beide so lange mittels der jeweiligen Funktion (next-value / next-index) erhöht, bis finished? ein #t zurückgibt. Dabei wird der aktuelle Wert (curr-value) zurückgegeben.
 ;;   start-value: der Wert, bei dem begonnen wird
@@ -127,6 +153,12 @@
            (lambda (cur-val cur-index) (>= cur-index n))))
 
 
+(output-expect "phi 0" (phi 0) 1.0)
+(output-expect "phi 1" (phi 1) 2.0)
+(output-expect "phi 2" (phi 2) 1.5)
+(output-expect "phi 10" (phi 10) 1.6179775280898875)
+
+
 ;;### Aufgabenteil 4c) ####
 
 (define (h^k-iterate h k)
@@ -138,25 +170,4 @@
              (lambda (cur-val cur-index) (< cur-index 1)))))
  
 
-
-;;##################
-;;### Testreihen ###
-;;##################
-
-(require "tests.rkt")
-(test #f (lambda (>> t)
-           
-           (>> "Aufgabe 1")
-           (t "Umfang lambda" (circle-circumference-lambda 2) 6.28318)
-           (t "Zyl.-Fläche lambda/let" (cylinder-area-lambda 2 3) (cylinder-area 2 3))
-         
-           (>> "Aufgabe 3")
-           (t "Komposition" ((compose (lambda (x) (expt x 2)) (lambda (x) (- (* 2 x) 3))) 6) 81)
-           (t "h^k: f(2)" (f 2) 65536)
-         
-           (>> "Aufgabe 4")
-           (t "Phi(0)"  (phi  0) 1.0)
-           (t "Phi(1)"  (phi  1) 2.0)
-           (t "Phi(2)"  (phi  2) 1.5)
-           (t "Phi(10)" (phi 10) 1.6179775280898876)
-           (t "h^k-iterate" ((h^k-iterate square 4) 2) 65536)))
+(output-expect "(h^k-iterate square 4) 2" ((h^k-iterate square 4) 2) 65536)
