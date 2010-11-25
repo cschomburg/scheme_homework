@@ -49,6 +49,8 @@
   ((lambda (pi)
     (* pi d)) 3.14159)))
 
+(output-expect "circle-circumference-lambda 2" (circle-circumference-lambda 2) 6.28318)
+
 ;; Oberfläche eines Zylinders, Lambda-Schreibweise
 (define cylinder-area-lambda (lambda (d h)
   ((lambda (pi r)
@@ -59,7 +61,7 @@
       (* pi r r) (* 2 pi r h)))
    3.14159 (/ d 2))))
 
-
+(output "cylinder-area-lambda 2 3" (cylinder-area-lambda 2 3))
 
 ;;#################
 ;;### Aufgabe 2 ###
