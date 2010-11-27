@@ -38,7 +38,7 @@
 ;;### Aufgabenteil 1b ###
 
 (<< "cons-Konstruktion 1")
-(cons 7 (cons (cons 0 (cons (cons 5 9) (cons 4 2))) (cons (cons (cons 6 1) 7) (cons 3 8))))
+(cons 7 (cons (cons 0 (cons (cons 5 9) (cons 4 2))) (cons (cons 6 1) (cons 3 8))))
 
 (<< "cons-Konstruktion 2")
 (cons (cons (cons (cons 6 4) (cons 9 2)) (cons (cons (cons 5 1) 7) (cons 3 8))) (cons '() 0))
@@ -102,7 +102,7 @@
         (iter (cons (string-ref str index) lst) (- index 1))))
   (iter '() (- (string-length str) 1)))
 
-;; Factory: Funktion, die Strings in Integer-Listen konvertiert
+;; Factory: Gibt eine Funktion zurück, die Strings in Integer-Listen konvertiert
 (define (string->intlist char->integer)
   (lambda (str)
     (map char->integer (string->list str))))
@@ -122,7 +122,7 @@
         (iter (cdr rest) (string-append str (string (car rest))))))
   (iter lst ""))
 
-;; Factory: Funktion, die Integer-Listen in Strings konvertiert
+;; Factory: Gibt eine Funktion zurück, die Integer-Listen in Strings konvertiert
 (define (intlist->string integer->char)
   (lambda (lst)
     (list->string (map integer->char lst))))
@@ -142,7 +142,7 @@
 ;;### Aufgabenteil 3a ###
 (header "Aufgabe 3a (rekursiv)")
 
-;; Factory: Caesar-Shift mit bestimmter Verschiebung (rekursiv)
+;; Factory: Gibt eine Caesar-Shift mit bestimmter Verschiebung zurück (rekursiv)
 (define (caesar-shift shift)
   (define (shift-list lst)
     (cond ((null? lst) lst)
@@ -162,7 +162,7 @@
 ;;### Aufgabenteil 3b ###
 (header "Aufgabe 3b (map)")
 
-;; Factory: Caesar-Shift mit bestimmter Verschiebung (map)
+;; Factory: Gibt eine Caesar-Shift mit bestimmter Verschiebung zurück (map)
 (define (caesar-shift-map shift)
   (lambda (str)
     (alphabet->string (map (lambda (int) (remainder (+ shift int) (length alphabet)))
