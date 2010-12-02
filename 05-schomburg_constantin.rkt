@@ -34,6 +34,8 @@
 ;;               |
 ;;              [5 9]
 
+;; Cons gibt ein Paar aus zwei zusammengefügten Objekten zurück. Natürlich lassen sich auch Cons-Paare wieder zusammenfügen, so dass sich Listen von verschachtelten Paaren ergeben, die sogar Baumstrukturen annehmen können (wie hier).
+
 
 ;;### Aufgabenteil 1b ###
 
@@ -83,7 +85,7 @@
 (define (integer->alphabet int)
   (define (iter i lst)
     (cond ((null? lst) (error "Fehler!"))
-          ((eq? int i) (car lst))
+          ((= int i) (car lst))
           (else (iter (+ i 1) (cdr lst)))))
   (iter 0 alphabet))
 
@@ -107,6 +109,7 @@
   (lambda (str)
     (map char->integer (string->list str))))
 
+;; Und hier der ausgeprägte Spezialfall mit unserem Alphabet
 (define string->alphabet (string->intlist alphabet->integer))
 
 (<<? '(string->alphabet "HALLO") '(7 0 11 11 14))
@@ -127,6 +130,7 @@
   (lambda (lst)
     (list->string (map integer->char lst))))
 
+;; Und hier der ausgeprägte Spezialfall mit unserem Alphabet
 (define alphabet->string (intlist->string integer->alphabet))
 
 (<<? '(alphabet->string '(7 0 11 11 14)) "HALLO")
@@ -151,6 +155,7 @@
   (lambda (str)
     (alphabet->string (shift-list (string->alphabet str)))))
 
+;; Der Spezialfall mit Verschiebung um 3
 (define my-caesar-shift (caesar-shift 3))
 (define my-caesar-unshift (caesar-shift -3))
 
@@ -168,6 +173,7 @@
     (alphabet->string (map (lambda (int) (remainder (+ shift int) (length alphabet)))
                            (string->alphabet str)))))
 
+;; Der Spezialfall mit Verschiebung um 3
 (define my-caesar-shift-map (caesar-shift 3))
 (define my-caesar-unshift-map (caesar-shift -3))
 
@@ -202,7 +208,7 @@
 ;;### Aufgabenteil 4b ###
 (header "Aufgabe 4b")
 
-;; Expandiert eine Symbol-Liste (rekursiv)
+;; Komprimiert eine Symbol-Liste (rekursiv)
 (define (compress sym-list)
   (define (helper old-list count)
     (cond ((null? old-list) '())
