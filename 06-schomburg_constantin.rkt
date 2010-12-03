@@ -99,14 +99,32 @@
 
 (<<? '(reduce + 0 '(4 2 5 7 3 -1 7)) 27)
 
+;; Trennt eine Liste mit einer Grenze in zwei Teil-Listen auf
 (define (partition threshold list)
   (cons (reduce (lambda (value new-list)
-                  (cond ((> value threshold) (cons value new-list))))
+                  (if (> value threshold) (cons value new-list)
+                      new-list))
                 '()
                 list)
         (reduce (lambda (value new-list)
-                  (cond ((<= value threshold) (cons value new-list))))
+                  (if (<= value threshold) (cons value new-list)
+                      new-list))
                 '()
                 list)))
 
-(<<! '(partition 3 '(0 3 5 7 2 1 6 4)))
+(<<? '(partition 3 '(0 3 5 7 2 1 6 4)) '((4 6 7 5) 1 2 3 0))
+
+;; Findet das n.-größte Element einer Liste
+(define (nth-largest-element list n)
+  (let* ((pivot (car list))
+         (part-list (partition pivot (cdr list)))
+         (l-list (car part-list))
+         (r-list (cdr part-list))
+         (l (length l-list))
+         (r (length r-list)))
+    (cond ((= l (- n 1)) pivot)
+          ((> l (- n 1)) (nth-largest-element l-list n))
+          (else (nth-largest-element r-list (- n l 1))))))
+
+(<<? '(nth-largest-element '(0 3 9 1 2 8 5 7 4 6) 5) 5)
+(<<? '(nth-largest-element '(1 9 2 0 8 3 7 4 6 5) 2) 8)
