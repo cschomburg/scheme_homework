@@ -299,6 +299,30 @@
                         (make-state (open-viewport "Test" 600 600) (make-posn 150 500) 200 200 60))))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Bonusaufgabe
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(define (my-run-lsystem start productions n start-size draw-table width height x y start-angle)
+  (define (draw-lsystem word state n)
+    (if (null? word)
+        state
+        (let ((element (car word))
+              (rest-word (cdr word)))
+          (cond ((symbol? element) ;; Element ist ein Symbol
+                 (if (= n 0)
+                     (draw-lsystem rest-word (draw-lsystem (draw-table element) state n) n) ;; Letzter Schritt: Wandle in Zeichenprozeduren um
+                     (draw-lsystem rest-word (draw-lsystem ((random-select productions) element) state (- n 1)) n))) ;; Leite das Symbol ab
+                ((procedure? element) ;; Element ist eine Zeichenprozedur
+                 (draw-lsystem rest-word (element state) n)) ;; Zeichne Element
+                ((list? element) ;; Element ist ein Wort
+                 (draw-lsystem element state n) ;; Durchlaufe das Wort
+                 (draw-lsystem rest-word state n))))))
+
+  (draw-lsystem start (make-state (open-viewport "My L-System" width height)
+                                  (make-posn x y) start-size start-size start-angle)
+                n))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; (Zeichnen eines L-Systems)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -309,16 +333,18 @@
      (make-production '* (list (scale factor)))
      (make-production '/ (list (scale (/ 1 angle))))))
 
-(define (run-lsystem start productions n start-size draw-table width height x y start-angle)
+(define (given-run-lsystem start productions n start-size draw-table width height x y start-angle)
   (draw-word 
    (apply (lsystem start productions n) draw-table)
-   (make-state (open-viewport "L-System" width height) 
+   (make-state (open-viewport "Given L-System" width height) 
                (make-posn x y) start-size start-size start-angle)))
-
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Beispiele
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; Lege Standard-run-lsystem fest
+(define run-lsystem my-run-lsystem)
 
 ; Kochkurve
 (define (kochkurve n)
@@ -535,11 +561,17 @@
                (make-production 'B (list leaf)))
    600 600 300 550 0))
 
-(header "Mögliche Optionen:")
-(display " * (run-tests) : Durchlaufe Test-Ausgaben\n\n")
+(define (switch-lsystem which)
+  (if (eq? which 'my)
+      (set! run-lsystem my-run-lsystem)
+      (set! run-lsystem given-run-lsystem)))
+
+(header "Mögliche Optionen")
+(display " * (run-tests) : Durchlaufe Test-Ausgaben\n")
+(display " * (switch-lsystem 'given / 'my) : Wechsle run-lsystem\n\n")
 (display " - (kochkurve 3..5)\n")
 (display " - (drachenkurve 5..14)\n")
 (display " - (sierpinski 2..6)\n")
 (display " - (pflanzen 1..10)\n")
-(display " - (barnsley)")
-(display " - (komplex)")
+(display " - (barnsley)\n")
+(display " - (komplex)\n")
