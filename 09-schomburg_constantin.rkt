@@ -39,7 +39,7 @@
 (<<! 'b)
 
 ;; fun-with-set1 gibt die Liste in umgekehrter Reihenfolge zurück
-;; Kästchennotation [ # = null ]
+;; Kästchennotation [ # = '() ]
 ;;   a vorher:  [2  ]--[3  ]--[5  ]--[7  #]
 ;;   a nachher: [2 #]
 ;;   b:         [7  ]--[5  ]--[3  ]--[2  #]
@@ -64,17 +64,17 @@
 
 (define (my-mlist? lst)
   (define (iter a b isSecond)
-    (let ((a-step (mcdr a)))
-      (cond ((null? a-step) #t)
-            (isSecond (iter a-step (mcdr b) #f))
-            ((eq? a-step b) #f)
-            (else (iter a-step b #t)))))
-  (if (null? lst) #t
-      (iter lst lst #f)))
+    (if (not (mpair? a)) #f
+        (let ((a-step (mcdr a)))
+          (cond ((null? a-step) #t)
+                (isSecond (iter a-step (mcdr b) #f))
+                ((eq? a-step b) #f)
+                (else (iter a-step b #t))))))
+  (iter lst lst #f))
 
-(<<? '(my-mlist? a)   (mlist? a))
-(<<? '(my-mlist? b)   (mlist? b))
-(<<? '(my-mlist? c)   (mlist? c))
+(<<? '(my-mlist? a)     (mlist? a))
+(<<? '(my-mlist? b)     (mlist? b))
+(<<? '(my-mlist? c)     (mlist? c))
 
 
 
@@ -83,15 +83,14 @@
 ;;#################
 (header "Aufgabe 2")
 
-(define memory null)
+(define memory #f)
 
 (define (f x)
-  (let ((mem memory))
-    (set! memory #t)
-    (if (null? mem) x 0)))
+  (if memory 0
+      (begin (set! memory #t) x)))
 
 (<<? '(+ (f 0) (f 1)) 0)
-(set! memory null) ;; Gedächtnis-Reset, damit es nicht vom vorherigen Aufruf abhängt
+(set! memory #f) ;; Gedächtnis-Reset, damit es nicht vom vorherigen Aufruf abhängt
 (<<? '(+ (f 1) (f 0)) 1)
 
 
@@ -105,9 +104,9 @@
   (let ((calls 0))
     (lambda (arg)
       (cond ((eq? arg 'how-many-calls?) calls)
-            ((eq? arg 'reset!) (let ((tmp-calls calls))
+            ((eq? arg 'reset!) (let ((old calls))
                                  (set! calls 0)
-                                 tmp-calls))
+                                 old))
             (else (set! calls (+ calls 1))
                   (f arg))))))
 
