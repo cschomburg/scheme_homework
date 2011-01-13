@@ -179,7 +179,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -219,7 +219,7 @@
            height="52.142857"
            x="249.28572"
            y="133.79076" /></flowRegion><flowPara
-         id="flowPara3765"></flowPara></flowRoot>    <flowRoot
+         id="flowPara3765" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot3767"
        style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"><flowRegion
@@ -229,7 +229,7 @@
            height="74.285713"
            x="201.42857"
            y="122.36218" /></flowRegion><flowPara
-         id="flowPara3773"></flowPara></flowRoot>    <flowRoot
+         id="flowPara3773" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot3775"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:200%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -263,7 +263,7 @@
            height="23.571428"
            x="317.85715"
            y="180.21933" /></flowRegion><flowPara
-         id="flowPara3793"></flowPara></flowRoot>    <g
+         id="flowPara3793" /></flowRoot>    <g
        transform="translate(-239.21694,533.49368)"
        id="g3809-71"
        style="fill:#f0f0f0;fill-opacity:1"
@@ -587,7 +587,7 @@
            height="80.714287"
            x="247.14285"
            y="485.93362" /></flowRegion><flowPara
-         id="flowPara6866"></flowPara></flowRoot>    <flowRoot
+         id="flowPara6866" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot6868"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -614,7 +614,7 @@
            height="27.857143"
            x="435.71429"
            y="493.07648" /></flowRegion><flowPara
-         id="flowPara6888"></flowPara></flowRoot>    <flowRoot
+         id="flowPara6888" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot7102"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"><flowRegion
@@ -625,7 +625,7 @@
            x="41.416256"
            y="354.85184"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif" /></flowRegion><flowPara
-         id="flowPara7108"></flowPara></flowRoot>    <text
+         id="flowPara7108" /></flowRoot>    <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
        x="112.57589"
@@ -649,7 +649,7 @@
          x="112.57589"
          y="856.37585"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-         id="tspan7769">(a-calculation 12)</tspan></text>
+         id="tspan7769">(a-procedure 12)</tspan></text>
     <g
        id="g7516"
        style="fill:#00ff00;fill-opacity:1;stroke:none"
@@ -687,5 +687,5 @@
            height="137.85715"
            x="419.28571"
            y="278.79074" /></flowRegion><flowPara
-         id="flowPara7753"></flowPara></flowRoot>  </g>
+         id="flowPara7753" /></flowRoot>  </g>
 </svg>
