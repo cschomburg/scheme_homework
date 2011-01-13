@@ -1,8 +1,8 @@
 #lang scheme
 
 ;; Richtigen Namespace für eval bekommen
-(define-namespace-anchor a)
-(define ns (namespace-anchor->namespace a))
+(define-namespace-anchor nsa)
+(define ns (namespace-anchor->namespace nsa))
 
 (define cached-tests '())
 
@@ -33,7 +33,7 @@
 (define (header s)
   (printf "~%~a~%~a~%" s (fix-length "" (string-length s) "=")))
 
-;; Simplen Text ausgeben, die Werte folgen danach
+;; Simplen Text ausgeben, die Werte folgen danach manuell
 (define (<< text)
   (printf "  ~a  =>  " text))
 
@@ -49,11 +49,3 @@
     (<< expression)
     (display value)
     (printf "  [~a]~%" (if (equal? value expected) "PASS" "FAIL"))))
-
-(test "Aufgabe 1"
-      '(<<! '(+ 3 5))
-      '(<<? '(* 1 2) 2))
-
-(test "Aufgabe 2"
-      '(<<! '(+ 3 5))
-      '(<<? '(* 1 2) 2))
