@@ -1,0 +1,1470 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="577.02887"
+   height="1280"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="10-schomburg_constantin-zeichnung.svg"
+   inkscape:export-filename="/home/xconstruct/09-schomburg_constantin-zeichnung.png"
+   inkscape:export-xdpi="159.71471"
+   inkscape:export-ydpi="159.71471">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM"
+       style="overflow:visible">
+      <path
+         id="path4106"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutL"
+       style="overflow:visible">
+      <path
+         id="path4103"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.8,0.8)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lstart"
+       style="overflow:visible">
+      <path
+         id="path3978"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(1.1,0,0,1.1,1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path3963"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutL-3"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4103-1"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.8,0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutL-8"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4103-4"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.8,0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-3"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4106-7"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-3-6"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4106-7-0"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-3-6-9"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4106-7-0-9"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-3-6-9-0"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4106-7-0-9-6"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-3-6-1"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4106-7-0-5"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-3-9"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4106-7-4"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-3-6-9-6"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4106-7-0-9-4"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-3-6-6"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4106-7-0-2"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-3-5"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4106-7-8"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3446"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3448"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3450"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3452"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3454"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3456"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-3-6-9-67"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4106-7-0-9-5"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-3-6-69"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4106-7-0-8"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-3-7"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4106-7-2"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-3-6-9-5"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4106-7-0-9-9"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-3-6-91"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4106-7-0-4"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-3-91"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4106-7-07"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3677"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3679"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3681"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3683"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3685"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3687"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3689"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3691"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3693"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3695"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3697"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3699"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3701"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3703"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-3-6-8"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4106-7-0-7"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="184.14276"
+     inkscape:cy="264.12442"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1035"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.47115838,381.00677)">
+    <rect
+       style="fill:#f0f0f0;fill-opacity:1;stroke:#000000;stroke-width:0.85569024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2985"
+       width="551.49445"
+       height="66.567596"
+       x="15.395207"
+       y="-319.73029"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <text
+       xml:space="preserve"
+       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="241.42857"
+       y="131.6479"
+       id="text3755"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3757"
+         x="241.42857"
+         y="131.6479" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3759"
+       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"><flowRegion
+         id="flowRegion3761"><rect
+           id="rect3763"
+           width="110.71429"
+           height="52.142857"
+           x="249.28572"
+           y="133.79076" /></flowRegion><flowPara
+         id="flowPara3765" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3767"
+       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"><flowRegion
+         id="flowRegion3769"><rect
+           id="rect3771"
+           width="188.57143"
+           height="74.285713"
+           x="201.42857"
+           y="122.36218" /></flowRegion><flowPara
+         id="flowPara3773" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3775"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:200%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       transform="translate(-232.68022,-453.73931)"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527"><flowRegion
+         id="flowRegion3777"><rect
+           id="rect3779"
+           width="335.71426"
+           height="177.85715"
+           x="261.42856"
+           y="138.79076"
+           style="line-height:200%" /></flowRegion><flowPara
+         id="flowPara3797"
+         style="line-height:200%">twice:</flowPara><flowPara
+         style="line-height:200%"
+         id="flowPara3286">create-counter:</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3787"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"><flowRegion
+         id="flowRegion3789"><rect
+           id="rect3791"
+           width="47.142857"
+           height="23.571428"
+           x="317.85715"
+           y="180.21933" /></flowRegion><flowPara
+         id="flowPara3793" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5479"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       transform="translate(-31.918418,-496.72084)"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527"><flowRegion
+         id="flowRegion5481"><rect
+           id="rect5483"
+           width="151.42857"
+           height="56.071434"
+           x="58.214287"
+           y="269.14789" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara5497">Parameter: f<flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+   id="flowSpan5505" /></flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara5502">Rumpf: (f) (f)<flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+   id="flowSpan5495" /></flowPara></flowRoot>    <g
+       transform="translate(-329.4865,-407.4631)"
+       id="g3809-71-8"
+       style="fill:#f0f0f0;fill-opacity:1"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527">
+      <rect
+         ry="9.5964432"
+         y="185.28671"
+         x="465.31445"
+         height="19.192886"
+         width="44.04604"
+         id="rect3801-3-0"
+         style="fill:#f0f0f0;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3807-4-4"
+         d="m 487.33748,185.35192 0,19.0625"
+         style="fill:#f0f0f0;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3)"
+       d="m 148.59881,-212.57994 -30.1514,0"
+       id="path5507-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3-6)"
+       d="m 74.162108,-299.1502 83.842652,0 0,72.98352"
+       id="path6175"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <rect
+       style="fill:#f0f0f0;fill-opacity:1;stroke:#000000;stroke-width:1.04612064;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect6373"
+       width="123.14114"
+       height="68.661324"
+       x="296.65063"
+       y="127.01842"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6375"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       transform="translate(148.22119,-278.77319)"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527"><flowRegion
+         id="flowRegion6377"><rect
+           id="rect6379"
+           width="122.85715"
+           height="20.714294"
+           x="155"
+           y="413.07648" /></flowRegion><flowPara
+         id="flowPara6381">val: 0</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3-6)"
+       d="m 404.64976,127.02067 0,-25.29821"
+       id="path6589"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6860"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"><flowRegion
+         id="flowRegion6862"><rect
+           id="rect6864"
+           width="100.71429"
+           height="80.714287"
+           x="247.14285"
+           y="485.93362" /></flowRegion><flowPara
+         id="flowPara6866" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6882"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"><flowRegion
+         id="flowRegion6884"><rect
+           id="rect6886"
+           width="112.14286"
+           height="27.857143"
+           x="435.71429"
+           y="493.07648" /></flowRegion><flowPara
+         id="flowPara6888" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot7102"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"><flowRegion
+         id="flowRegion7104"><rect
+           id="rect7106"
+           width="120.20815"
+           height="29.294424"
+           x="41.416256"
+           y="354.85184"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif" /></flowRegion><flowPara
+         id="flowPara7108" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+       x="497.44397"
+       y="191.49498"
+       id="text7110"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527"><tspan
+         sodipodi:role="line"
+         x="497.44397"
+         y="191.49498"
+         id="tspan7116"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif">Frame</tspan><tspan
+         sodipodi:role="line"
+         x="497.44397"
+         y="206.49498"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="tspan7771">aufgerufen durch</tspan><tspan
+         sodipodi:role="line"
+         x="497.44397"
+         y="221.49498"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         id="tspan7769">(create-counter)</tspan></text>
+    <g
+       id="g7516"
+       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       transform="matrix(-0.96832481,0.24969395,0.24969395,0.96832481,553.19259,-267.66323)"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527">
+      <path
+         style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.39999998;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+         d="m 229.5,389.0625 -45.4375,21.21875 0.59375,1.28125 45.4375,-21.21875 L 229.5,389.0625 z"
+         id="path7118"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:#00ff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.55999999pt;marker-start:none"
+         d="m 232.73776,388.33568 -3.20547,4.58577 -2.36816,-5.07462 5.57363,0.48885 z"
+         id="path7522"
+         inkscape:connector-curvature="0" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3-6-9)"
+       d="m 168.57143,-213.03068 21.78571,0 0,-36.33231"
+       id="path7526"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot7747"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"><flowRegion
+         id="flowRegion7749"><rect
+           id="rect7751"
+           width="150.71428"
+           height="137.85715"
+           x="419.28571"
+           y="278.79074" /></flowRegion><flowPara
+         id="flowPara7753" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5479-9"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       transform="translate(-32.605883,-447.73361)"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527"><flowRegion
+         id="flowRegion5481-0"><rect
+           id="rect5483-9"
+           width="218.09865"
+           height="67.688202"
+           x="58.214287"
+           y="269.14789" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara5497-1">Parameter:</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara5502-7">Rumpf: (let ((val 0))</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara3426">               (lambda () </flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara3428">                 (set! val (+ val 1)) val)))</flowPara></flowRoot>    <g
+       transform="translate(-264.47344,-348.37434)"
+       id="g3809-71-8-1"
+       style="fill:#f0f0f0;fill-opacity:1"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527">
+      <rect
+         ry="9.5964432"
+         y="185.28671"
+         x="465.31445"
+         height="19.192886"
+         width="44.04604"
+         id="rect3801-3-0-5"
+         style="fill:#f0f0f0;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3807-4-4-9"
+         d="m 487.33748,185.35192 0,19.0625"
+         style="fill:#f0f0f0;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3)"
+       d="m 213.61187,-153.49118 -30.1514,0"
+       id="path5507-5-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3-6)"
+       d="m 139.17517,-275.92186 83.84265,0 0,108.84394"
+       id="path6175-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3-6-9)"
+       d="m 233.58449,-152.93177 21.78571,0 0,-96.43638"
+       id="path7526-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <rect
+       style="fill:#f0f0f0;fill-opacity:1;stroke:#000000;stroke-width:1.03709269;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2985-6"
+       width="551.49445"
+       height="97.78334"
+       x="14.723934"
+       y="-0.070098877"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3775-2"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:200%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       transform="translate(-233.35149,-134.07912)"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527"><flowRegion
+         id="flowRegion3777-8"><rect
+           id="rect3779-4"
+           width="335.71426"
+           height="177.85715"
+           x="261.42856"
+           y="138.79076"
+           style="line-height:200%" /></flowRegion><flowPara
+         id="flowPara3797-7"
+         style="line-height:200%">twice:</flowPara><flowPara
+         style="line-height:200%"
+         id="flowPara3286-2">create-counter:</flowPara><flowPara
+         style="line-height:200%"
+         id="flowPara3583">c:</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5479-4"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono;opacity:0.5"
+       transform="translate(-30.589687,-155.06065)"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527"><flowRegion
+         id="flowRegion5481-06"><rect
+           id="rect5483-2"
+           width="151.42857"
+           height="56.071434"
+           x="58.214287"
+           y="269.14789" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara5497-9">Parameter: f<flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+   id="flowSpan5505-9" /></flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara5502-0">Rumpf: (f) (f)<flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+   id="flowSpan5495-8" /></flowPara></flowRoot>    <g
+       transform="translate(-330.15777,-65.80291)"
+       id="g3809-71-8-13"
+       style="fill:#f0f0f0;fill-opacity:1;opacity:0.5"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527">
+      <rect
+         ry="9.5964432"
+         y="185.28671"
+         x="465.31445"
+         height="19.192886"
+         width="44.04604"
+         id="rect3801-3-0-1"
+         style="fill:#f0f0f0;fill-opacity:1;stroke:#000000;stroke-width:1.20000005000000010;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3807-4-4-1"
+         d="m 487.33748,185.35192 0,19.0625"
+         style="fill:#f0f0f0;fill-opacity:1;stroke:#000000;stroke-width:1.20000005000000010;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998000000003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3);opacity:0.5"
+       d="m 147.92754,129.08025 -30.1514,0"
+       id="path5507-5-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998000000003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3-6);opacity:0.5"
+       d="m 73.490833,20.286634 83.842657,0 0,95.206876"
+       id="path6175-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998000000003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3-6-9);opacity:0.5"
+       d="m 167.90016,128.62951 21.78571,0 0,-26.9884"
+       id="path7526-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5479-9-0"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono;opacity:0.5"
+       transform="translate(-31.277157,-106.07342)"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527"><flowRegion
+         id="flowRegion5481-0-3"><rect
+           id="rect5483-9-9"
+           width="218.09865"
+           height="67.688202"
+           x="58.214287"
+           y="269.14789" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara5497-1-1">Parameter:</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara5502-7-9">Rumpf: (let ((val 0))</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara3426-6">               (lambda () </flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara3428-9">                 (set! val (+ val 1)) val)))</flowPara></flowRoot>    <g
+       transform="translate(-265.14471,-6.71415)"
+       id="g3809-71-8-1-3"
+       style="fill:#f0f0f0;fill-opacity:1;opacity:0.5"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527">
+      <rect
+         ry="9.5964432"
+         y="185.28671"
+         x="465.31445"
+         height="19.192886"
+         width="44.04604"
+         id="rect3801-3-0-5-3"
+         style="fill:#f0f0f0;fill-opacity:1;stroke:#000000;stroke-width:1.20000005000000010;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3807-4-4-9-8"
+         d="m 487.33748,185.35192 0,19.0625"
+         style="fill:#f0f0f0;fill-opacity:1;stroke:#000000;stroke-width:1.20000005000000010;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998000000003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3);opacity:0.5"
+       d="m 212.9406,188.16901 -30.1514,0"
+       id="path5507-5-7-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998000000003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3-6);opacity:0.5"
+       d="m 138.5039,45.030203 83.84265,0 0,129.552067"
+       id="path6175-7-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998000000003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3-6-9);opacity:0.5"
+       d="m 232.91322,188.72842 21.78571,0 0,-87.34501"
+       id="path7526-6-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5479-9-0-8"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       transform="translate(-33.746898,0.5924731)"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527"><flowRegion
+         id="flowRegion5481-0-3-2"><rect
+           id="rect5483-9-9-9"
+           width="218.09865"
+           height="67.688202"
+           x="58.214287"
+           y="269.14789" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara5497-1-1-9">Parameter:</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara3428-9-2">Rumpf: (set! val (+ val 1)) val)))</flowPara></flowRoot>    <g
+       transform="translate(-211.61444,91.951744)"
+       id="g3809-71-8-1-3-7"
+       style="fill:#f0f0f0;fill-opacity:1"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527">
+      <rect
+         ry="9.5964432"
+         y="185.28671"
+         x="465.31445"
+         height="19.192886"
+         width="44.04604"
+         id="rect3801-3-0-5-3-6"
+         style="fill:#f0f0f0;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3807-4-4-9-8-1"
+         d="m 487.33748,185.35192 0,19.0625"
+         style="fill:#f0f0f0;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3)"
+       d="m 266.47087,286.8349 -30.1514,0"
+       id="path5507-5-7-0-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3-6)"
+       d="m 44.046822,68.439725 231.829998,0 0,204.808435"
+       id="path6175-7-5-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3-6-9)"
+       d="m 286.44349,287.39431 21.78571,0 0,-87.34501"
+       id="path7526-6-6-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <rect
+       style="fill:#f0f0f0;fill-opacity:1;stroke:#000000;stroke-width:1.04612064;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect6373-5"
+       width="123.14114"
+       height="68.661324"
+       x="296.05936"
+       y="518.66479"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6375-8"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       transform="translate(147.62989,112.8732)"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527"><flowRegion
+         id="flowRegion6377-7"><rect
+           id="rect6379-0"
+           width="122.85715"
+           height="20.714294"
+           x="155"
+           y="413.07648" /></flowRegion><flowPara
+         id="flowPara6381-4">val: 0</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3-6)"
+       d="m 404.05846,518.66706 0,-25.29821"
+       id="path6589-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <rect
+       style="fill:#f0f0f0;fill-opacity:1;stroke:#000000;stroke-width:1.03709269;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2985-6-4"
+       width="551.49445"
+       height="97.78334"
+       x="14.132648"
+       y="391.57629"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3775-2-2"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:200%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       transform="translate(-233.94279,257.56727)"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527"><flowRegion
+         id="flowRegion3777-8-2"><rect
+           id="rect3779-4-2"
+           width="335.71426"
+           height="177.85715"
+           x="261.42856"
+           y="138.79076"
+           style="line-height:200%" /></flowRegion><flowPara
+         id="flowPara3797-7-0"
+         style="line-height:200%">twice:</flowPara><flowPara
+         style="line-height:200%"
+         id="flowPara3286-2-5">create-counter:</flowPara><flowPara
+         style="line-height:200%"
+         id="flowPara3583-5">c:</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5479-4-2"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono;opacity:0.5"
+       transform="translate(-31.180985,236.58574)"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527"><flowRegion
+         id="flowRegion5481-06-9"><rect
+           id="rect5483-2-0"
+           width="151.42857"
+           height="56.071434"
+           x="58.214287"
+           y="269.14789" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara5497-9-2">Parameter: f<flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+   id="flowSpan5505-9-8" /></flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara5502-0-3">Rumpf: (f) (f)<flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+   id="flowSpan5495-8-8" /></flowPara></flowRoot>    <g
+       transform="translate(-330.74907,325.84347)"
+       id="g3809-71-8-13-0"
+       style="fill:#f0f0f0;fill-opacity:1;opacity:0.5"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527">
+      <rect
+         ry="9.5964432"
+         y="185.28671"
+         x="465.31445"
+         height="19.192886"
+         width="44.04604"
+         id="rect3801-3-0-1-4"
+         style="fill:#f0f0f0;fill-opacity:1;stroke:#000000;stroke-width:1.20000005000000010;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3807-4-4-1-0"
+         d="m 487.33748,185.35192 0,19.0625"
+         style="fill:#f0f0f0;fill-opacity:1;stroke:#000000;stroke-width:1.20000005000000010;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998000000003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3);opacity:0.5"
+       d="m 147.33624,520.72664 -30.1514,0"
+       id="path5507-5-0-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998000000003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3-6);opacity:0.5"
+       d="m 72.899535,411.93302 83.842655,0 0,95.20688"
+       id="path6175-3-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998000000003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3-6-9);opacity:0.5"
+       d="m 167.30886,520.2759 21.78571,0 0,-26.9884"
+       id="path7526-4-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5479-9-0-6"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono;opacity:0.5"
+       transform="translate(-31.868455,285.57297)"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527"><flowRegion
+         id="flowRegion5481-0-3-25"><rect
+           id="rect5483-9-9-4"
+           width="218.09865"
+           height="67.688202"
+           x="58.214287"
+           y="269.14789" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara5497-1-1-4">Parameter:</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara5502-7-9-9">Rumpf: (let ((val 0))</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara3426-6-9">               (lambda () </flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara3428-9-3">                 (set! val (+ val 1)) val)))</flowPara></flowRoot>    <g
+       transform="translate(-265.73601,384.93224)"
+       id="g3809-71-8-1-3-6"
+       style="fill:#f0f0f0;fill-opacity:1;opacity:0.5"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527">
+      <rect
+         ry="9.5964432"
+         y="185.28671"
+         x="465.31445"
+         height="19.192886"
+         width="44.04604"
+         id="rect3801-3-0-5-3-0"
+         style="fill:#f0f0f0;fill-opacity:1;stroke:#000000;stroke-width:1.20000005000000010;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3807-4-4-9-8-5"
+         d="m 487.33748,185.35192 0,19.0625"
+         style="fill:#f0f0f0;fill-opacity:1;stroke:#000000;stroke-width:1.20000005000000010;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998000000003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3);opacity:0.5"
+       d="m 212.3493,579.8154 -30.1514,0"
+       id="path5507-5-7-0-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998000000003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3-6);opacity:0.5"
+       d="m 137.9126,436.67659 83.84265,0 0,129.55207"
+       id="path6175-7-5-29"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998000000003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3-6-9);opacity:0.5"
+       d="m 232.32192,580.37481 21.78571,0 0,-87.34501"
+       id="path7526-6-6-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5479-9-0-8-3"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       transform="translate(-34.338195,392.23886)"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527"><flowRegion
+         id="flowRegion5481-0-3-2-5"><rect
+           id="rect5483-9-9-9-1"
+           width="218.09865"
+           height="67.688202"
+           x="58.214287"
+           y="269.14789" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara5497-1-1-9-7">Parameter:</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara3428-9-2-4">Rumpf: (set! val (+ val 1)) val)))</flowPara></flowRoot>    <g
+       transform="translate(-212.20574,483.59813)"
+       id="g3809-71-8-1-3-7-3"
+       style="fill:#f0f0f0;fill-opacity:1"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527">
+      <rect
+         ry="9.5964432"
+         y="185.28671"
+         x="465.31445"
+         height="19.192886"
+         width="44.04604"
+         id="rect3801-3-0-5-3-6-1"
+         style="fill:#f0f0f0;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3807-4-4-9-8-1-4"
+         d="m 487.33748,185.35192 0,19.0625"
+         style="fill:#f0f0f0;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3)"
+       d="m 265.87957,678.48129 -30.1514,0"
+       id="path5507-5-7-0-3-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998000000003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3-6);opacity:0.5"
+       d="m 43.455525,460.08611 231.829995,0 0,204.80844"
+       id="path6175-7-5-2-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3-6-9)"
+       d="m 285.85219,679.0407 21.78571,0 0,-87.34501"
+       id="path7526-6-6-1-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <rect
+       style="fill:#f0f0f0;fill-opacity:1;stroke:#000000;stroke-width:1.04612064;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect6373-0"
+       width="123.14114"
+       height="68.661324"
+       x="349.49817"
+       y="743.67914"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6375-86"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       transform="translate(201.06869,337.88752)"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527"><flowRegion
+         id="flowRegion6377-2"><rect
+           id="rect6379-4"
+           width="122.85715"
+           height="20.714294"
+           x="155"
+           y="413.07648" /></flowRegion><flowPara
+         id="flowPara6381-7">f:</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3-6)"
+       d="m 457.49727,743.68138 0,-250.56223"
+       id="path6589-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+       x="233.10356"
+       y="801.58966"
+       id="text7110-3"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527"><tspan
+         sodipodi:role="line"
+         x="233.10356"
+         y="801.58966"
+         id="tspan7116-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif">Frame</tspan><tspan
+         sodipodi:role="line"
+         x="233.10356"
+         y="816.58966"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="tspan7771-2">aufgerufen durch</tspan><tspan
+         sodipodi:role="line"
+         x="233.10356"
+         y="831.58966"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         id="tspan7769-8">(twice c)</tspan></text>
+    <g
+       id="g7516-3"
+       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       transform="matrix(0.96832481,0.24969395,-0.24969395,0.96832481,215.47873,362.12946)"
+       inkscape:export-filename="/home/xconstruct/scheme_homework/09-schomburg_constantin-zeichnung.png"
+       inkscape:export-xdpi="165.44527"
+       inkscape:export-ydpi="165.44527">
+      <path
+         style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.39999998;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+         d="m 229.5,389.0625 -45.4375,21.21875 0.59375,1.28125 45.4375,-21.21875 L 229.5,389.0625 z"
+         id="path7118-0"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:#00ff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.55999999pt;marker-start:none"
+         d="m 232.73776,388.33568 -3.20547,4.58577 -2.36816,-5.07462 5.57363,0.48885 z"
+         id="path7522-1"
+         inkscape:connector-curvature="0" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM-3-6-8)"
+       d="m 372.24121,1140.0939 14.64721,0 0,-42.9315 -112.00964,0 0,-24.417"
+       id="path4016"
+       inkscape:connector-curvature="0"
+       transform="translate(0.47115838,-381.00677)"
+       sodipodi:nodetypes="ccccc" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5222"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:DejaVu Serif;font-style:normal;font-weight:bold;font-size:16px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:DejaVu Serif Bold;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion5224"><rect
+           id="rect5226"
+           width="330.31989"
+           height="33.335033"
+           x="18.182745"
+           y="20.339777"
+           style="font-weight:bold;-inkscape-font-specification:DejaVu Serif Bold;font-size:16px" /></flowRegion><flowPara
+         id="flowPara5228"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5230"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:DejaVu Serif;font-style:normal;font-weight:bold;font-size:16px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:DejaVu Serif Bold;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion5232"><rect
+           id="rect5234"
+           width="535.38086"
+           height="37.375645"
+           x="12.121831"
+           y="16.299168"
+           style="font-size:16px;font-weight:bold;-inkscape-font-specification:DejaVu Serif Bold" /></flowRegion><flowPara
+         id="flowPara5236"></flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+       x="15.765583"
+       y="-348.60608"
+       id="text5238"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5240"
+         x="15.765583"
+         y="-348.60608"
+         style="font-size:18px;font-weight:bold;-inkscape-font-specification:DejaVu Serif Bold">Vor beiden Schritten</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+       x="15.439662"
+       y="-25.89563"
+       id="text5238-9"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5240-1"
+         x="15.439662"
+         y="-25.89563"
+         style="font-size:18px;font-weight:bold;-inkscape-font-specification:DejaVu Serif Bold">Nach dem ersten</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+       x="16.434078"
+       y="371.33289"
+       id="text5238-9-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5240-1-8"
+         x="16.434078"
+         y="371.33289"
+         style="font-size:18px;font-weight:bold;-inkscape-font-specification:DejaVu Serif Bold">Während der Auswertung des zweiten</tspan></text>
+  </g>
+</svg>

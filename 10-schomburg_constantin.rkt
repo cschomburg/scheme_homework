@@ -1,7 +1,7 @@
 #lang scheme
 
-;; Programmieren (Scheme) - WS 2010/11 - Übung 09
-;; 07.01.11 - 14.01.11
+;; Programmieren (Scheme) - WS 2010/11 - Übung 10
+;; 14.01.11 - 21.01.11
 ;; Constantin Schomburg
 
 (define ... 'TODO)
@@ -27,7 +27,6 @@
 ;(twice c)
 
 ;; Die Funktion greift auf die Variable "val" zu, die zu einem höheren Gültigkeitsbereich gehört, aber nicht zum Global Environment.
-
 
 
 
