@@ -1,7 +1,7 @@
 #lang scheme
 
-;; Programmieren (Scheme) - WS 2010/11 - Übung 09
-;; 07.01.11 - 14.01.11
+;; Programmieren (Scheme) - WS 2010/11 - Übung 10
+;; 14.01.11 - 21.01.11
 ;; Constantin Schomburg
 
 (define ... 'TODO)
@@ -16,6 +16,7 @@
 ;;#################
 ;;### Aufgabe 1 ###
 ;;#################
+;; siehe Zeichnung
 
 (define (twice f) (f) (f))
 
@@ -30,7 +31,6 @@
 
 
 
-
 ;;#################
 ;;### Aufgabe 2 ###
 ;;#################
@@ -42,16 +42,16 @@
 
 (header "Aufgabe 2")
 (define a (mlist 'a 'b 'c))
-(<< "vor mlist-set!") (display a) (display "\n")
+(<< "a vorher") (display a) (display "\n")
 (mlist-set! a 2 'z)
-(<< "nach mlist-set!") (display a) (display "\n")
+(<< "nach (mlist-set! a 2 'z)") (display a) (display "\n")
 
 
 
 ;;###############
 ;;### Gegeben ###
 ;;###############
-(header "Aufgabe 3")
+(header "Aufgabe 3a")
 
 (class (BasicMachine)
   (attribute _program)
@@ -109,17 +109,18 @@
 (<<? '(run-program ExtendedMachine square-plus-one 8) 65)
 
 ;;### Aufgabe 3b ###
+(header "Aufgabe 3b")
 
 ;; Register 0: Zwischenergebnis
 ;; Register 1: Counter
 ;; Register 2: -1
-(define fact  '((mov 1 0)  ;; 0 - Counter auf n initialisieren
-                (sto 0 1)  ;; 1 - Zwischenergebnis auf 1 initialisieren
-                (sto 2 -1) ;; 2 - Register 2 auf -1 setzen
-                (jz 7 1)   ;; 3 - Wenn Counter 0, dann springe zum Ende
-                (mul 0 1)  ;; 4 - Multipliziere Counter auf das Zwischenergebnis
-                (add 1 2)  ;; 5 - Vermindere Counter um 1
-                (jmp 3)))  ;; 6 - Springe zurück zur Abbruchbedingung
+(define fact '((mov 1 0)  ;; 0 - Counter auf n initialisieren
+               (sto 0 1)  ;; 1 - Zwischenergebnis auf 1 initialisieren
+               (sto 2 -1) ;; 2 - Register 2 auf -1 setzen
+               (jz 7 1)   ;; 3 - Wenn Counter 0, dann springe zum Ende
+               (mul 0 1)  ;; 4 - Multipliziere Counter auf das Zwischenergebnis
+               (add 1 2)  ;; 5 - Vermindere Counter um 1
+               (jmp 3)))  ;; 6 - Springe zurück zur Abbruchbedingung
 
 (<<? '(run-program ExtendedMachine fact 5) 120)
 (<<? '(run-program ExtendedMachine fact 1) 1)
